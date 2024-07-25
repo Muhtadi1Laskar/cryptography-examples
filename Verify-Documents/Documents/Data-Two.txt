@@ -1,0 +1,8 @@
+Attackers can compute the hashes of trillions of
+arbitrary passwords and create a sort of dictionary that maps hashes
+back to plaintext passwords. Stolen password hashes can then be
+looked up in this dictionary. This is a sort of brute force attack,
+but the work has to be done only once. It’s effective because most
+people use simple passwords. In 2012 a hacker attacked LinkedIn
+and leaked the password hashes of over 6 million people; and a dictionary attack could reveal most of them. Storing password hashes
+can be almost as bad as storing plain copies of the passwords

@@ -1,0 +1,18 @@
+Most computer systems authenticate users by requesting them to
+enter a password. This means that they must store records of all
+passwords. But keeping plaintext copies of passwords is terrible
+practice: if the system is hacked, the passwords of every user can
+potentially be known to the hackers. In addition, many people have
+the bad habit of reusing their passwords, so such a security breach
+in one system can lead to breaches in other systems.
+Storing encrypted passwords doesn’t solve the problem. With
+complete access to a system, attackers can potentially find the key
+and figure out how the system automatically encrypts or decrypts
+passwords when verifying login attempts. At this point, everyone’s
+encrypted password can then potentially be decrypted!
+For this reason, it’s better to store the hash of each password
+rather than an encrypted copy: contrarily to ciphers, hash functions
+are not reversible. However, you can still check the password provided at login by hashing it and comparing it to the hash you’re
+storing. If the hashes are the same, the password is correct.17 Yet,
+even if a computer system is only storing password hashes, there’s
+still a way for attackers to know people’s passwords
