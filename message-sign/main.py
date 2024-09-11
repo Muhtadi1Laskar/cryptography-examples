@@ -1,7 +1,5 @@
 from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.asymmetric.utils import encode_dss_signature, decode_dss_signature
-from cryptography.hazmat.primitives import serialization
 
 def generate_key_pair():
     # Generate private key using elliptic curve cryptography
