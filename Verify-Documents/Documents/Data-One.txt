@@ -15,4 +15,4 @@ rather than an encrypted copy: contrarily to ciphers, hash functions
 are not reversible. However, you can still check the password provided at login by hashing it and comparing it to the hash you’re
 storing. If the hashes are the same, the password is correct.17 Yet,
 even if a computer system is only storing password hashes, there’s
-still a way for attackers to know people’s passwords
+still a way for attackers to know people’s passwords 
