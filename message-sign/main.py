@@ -33,3 +33,4 @@ if __name__ == "__main__":
     is_valid = verify_signature(message, signature, public_key)
 
     print(f"Signature valid: {is_valid}")
+a[az]
