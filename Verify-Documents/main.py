@@ -63,5 +63,5 @@ def check_hashes():
     return "Files are not altered." if not messages else " | ".join(messages)
 
 
-# print(save_hashes())
-print(check_hashes())
+print(save_hashes())
+# print(check_hashes())

@@ -1,12 +1,1 @@
-The first step is to record the song to a computer file. You then
-calculate the hash of the file, and ask a notary to record that hash
-number. If the authorship of the song is contested, you can reveal
-your notarized hash number, along with the song recording. The
-only way you could have requested a notary to certify that specific
-hash number is by having possession of the recording file.
-Online gambling sites also utilize hashing to prove to their
-clients that each game is fair. Imagine a simple game where one
-bets on the result of a coin toss. If you correctly call the toss, you
-double your stake; if you don’t, you lose all of it. First, the online
-casino asks you for a number and randomly generates a coin toss.
-Suppose it’s heads.s
+This is a Text file

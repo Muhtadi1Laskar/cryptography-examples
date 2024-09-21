@@ -1,17 +1,1 @@
-ere, the hash begins with eight zeros! You can assume that whoever presented you with heads750 had to commit at least some
-computational resources to calculate many hashes in order to find
-an input that produced a hash with such a pattern. We call this a
-proof of work. Even more work has probably been spent in order
-to find the following input, as its hash begins with 12 zeros:
-Proof of work can be used to make attacks more difficult. For example, by requesting users to present proof of work before making a
-request, a server can make it more expensive for attackers to overload it with bogus requests. The attackers would have to spend a
-lot of computational resources in order to create piles of requests
-that the server would accept to process
- Along with digital signatures and hashing, proof of
-work gave rise to a technology that is set to change the world: the
-blockchain! Over the next few years, we believe it can provide economic sovereignty to billions of people by eliminating middlemen
-and adding more transparency, privacy and accountability to our
-society. Along with blockchain, entirely new cryptographic tools
-with fancy names are being developed, such as “zero-knowledge
-proofs” and “homomorphic encryption”. We can only dream of the
-power that will be unleashed by these technologies in the future
+This is a Text file

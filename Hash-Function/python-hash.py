@@ -1,4 +1,9 @@
 import hashlib
+import json
+
+def read_file():
+    with open("data.txt", "r") as f:
+        return f.read()
 
 def hash_function(message, type):
     hash_func = hashlib.new(type)
@@ -13,7 +18,7 @@ def hash_function(message, type):
 
 
 if __name__ == '__main__':
-    message = 'This is a message'
+    message = read_file()
     hash_data = hash_function(message, 'sha256')
 
     print(hash_data)

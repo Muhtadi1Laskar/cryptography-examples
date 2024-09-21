@@ -1,8 +1,1 @@
-Improvements:
-
-Docstrings: Added docstrings to each function explaining their purpose and parameters.
-Meaningful Variable Names: Replaced _ with descriptive names like filename and data.
-Error Messages: Improved error messages for clarity.
-File Path Handling: Used os.path.join for reliable path construction.
-Default Arguments: Set default values for filename in save_json and read_json for more flexibility.
-Function Calls (Optional): Commented out the function calls, allowing you to choose based on your needs (save or check hashes).
+This is a Text file

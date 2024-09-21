@@ -1,9 +1,1 @@
-Fortunately, there is a way to prevent dictionary attacks.
-Instead of saving the result of hash(password) to a database, the
-system can generate a random number called a salt and store it in
-plaintext along with the result of hash(password+salt). Since
-each user has salt different salt, this forces the attackers to try and
-brute force each password hash individually. Every time they try to
-find the password of a given user, they don’t even know if that user
-has a simple password that would take minutes to brute force or a
-complicated one that could take centuries
+This is a Text file
